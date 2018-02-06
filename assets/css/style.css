@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0000;
+}
+.container{
+    width:960px;
+    height: auto;
+    /*
+    border:dashed;
+    border-color:black;
+    */
+}
+.logo{
+   font-size:50px;
+   height:auto;
+   float:left;
+   color:white;
+  background-color: #4aaaa5;
+}
+.nav-link ul li{
+    display:inline-block;
+    text-align: center;
+    margin-left:25px;
+}
+.nav-link ul {
+    float:right;
+    text-align:right;
+    height:auto;
+}
+.main_section{
+    clear: both;
+}
+article{
+        width: 650px;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        float: left;
+        background-color:white;
+}
+sidebar{
+        margin-top: 10px;
+        width: 270px;
+        height:  150px;
+        background-color:white;
+        float:right;
+}
+footer{
+        clear:both;
+        height: 50px;
+        width:100%;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        background-color:black;
+        margin-top: 10px;
+}
+img{
+    height: 200px;
+    width: 250px;
+    float:left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
