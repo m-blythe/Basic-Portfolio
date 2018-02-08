@@ -1,18 +1,24 @@
+body div header nav section aside footer{
+    margin: 0px;
+    padding:0px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #0000;
+    font-size: 15px;
+    color: #777777;
 }
 .container{
-    width:960px;
+    width:940px;
     height: auto;
-    /*
-    border:dashed;
-    border-color:black;
-    */
+    text-align: center;
+    margin: auto;
+    overflow:hidden;
 }
 .logo{
-   font-size:50px;
+   font-size:40px;
+   font-weight: bold;
+   /*font-family: 'Alex Brush', cursive;*/
+   font-family: 'Bad Script', cursive;
    height:auto;
    float:left;
    color:white;
@@ -32,7 +38,7 @@ body{
     clear: both;
 }
 article{
-        width: 650px;
+        width: 600px;
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -59,7 +65,9 @@ footer{
 }
 img{
     height: 200px;
-    width: 250px;
+    width: 200px;
+    margin: 10px;
+    padding:0px;
     float:left;
 }
 .clearfix::after {
@@ -75,3 +83,34 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+.about_me{
+    font-size: 25px;
+    font-weight:bold;
+}
+h1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin: 10px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin: 10px;
+}
+hr.left_line { 
+    text-align:left;
+    margin:10px;
+    width: 95%;
+    border-style: inset;
+    border-width: 1px;
+} 
+hr.center_line { 
+    width: 90%;
+    border-style: inset;
+    border-width: 1px;
+} 
