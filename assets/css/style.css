@@ -61,9 +61,7 @@ footer{
         text-align: center;
         font-size: 10px;
         background-color:black;
-        /*margin-top: 10px;*/
-        border-top-color: #4aaaa5;
-        border-top: 10px;
+        border-top: solid #4aaaa5 5px;
 }
 img{
     height: 200px;
@@ -120,4 +118,7 @@ hr.center_line {
     margin-left: 10px;
     margin-right: 10px;
     text-align: left;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
 }
